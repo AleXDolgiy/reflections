@@ -1,0 +1,55 @@
+﻿What happens when you initialize a repository? Why do you need to do it?
+
+
+
+It creates a local repository, which contains no commit.And all added files and changes begin to be monitored
+
+
+
+How is the staging area different from the working directory and the repository?
+
+What value do you think it offers?
+
+
+Staging area is the preparation area for files to be committed . They differ already made casts of the file before you commit.
+
+
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+
+
+Before you send something to the commit you can make the necessary changes in the logicalсchange then move them from the workspace to the staging area compare them and then have to commit.
+
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+
+
+
+Branches are required in order not to make changes to the master project and in parallel to test new features, test and then introduce the main product. Also, branches are required to work a few people on the different tasks of the project
+
+
+How do the diagrams help you visualize the branch structure?
+
+
+
+branching structure diagram is very useful for work and for understanding the structure of the project. This is a very necessary thing to work with git
+
+What is the result of merging two branches together?Why do we represent it in
+the diagram the way we do? 
+
+The result is a fusion of two branches, one branch, but with modifications and features of the two branches, most mergers are the master branch.
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+
+Cons manual mode is the high cost of time, compare two versions of the hotfix files.
+Pros of automatic it is sheed.
+
+But I believe that the best is still manual mode where you can check your own mistakes to correct them, to compare and to be sure that everything is in order.
